@@ -1,0 +1,29 @@
+HTML (HyperText Markup Language) açılımı “Köprü Metni Biçimlendirme Dili” olan, bir web sayfasının içeriğini yapılandırmak için kullanılan basit bir biçimlendirme dilidir.
+
+Web sayfalarının içeriğinde listeler, tablolar, paragraflar, başlıklar ve linkler oluşturmaya yarayan HTML, World Wide Web Konsorsiyumu (W3C) tarafından geliştirilmiştir ve birçok sürümü vardır. W3C ayrıca HTML’ye çok benzeyen ancak daha katı kuralları olan XHTML biçimlendirme dilini de geliştirmektedir.
+
+Temel HTML kodları 
+
+ <!DOCTYPE html> belgenin türünü bildiren bir HTML etiketidir.
+
+<html> ve </html> etiketleri, html dosyanızın başlangıç ve bitişini gösterir.
+
+<body> ve </body> etiketleri arasına tarayıcıda görüntülenecek ana içeriğe dair kodlar yazılır.
+
+<head> ve </head> etiketleri arasına yazılan kodlar web sayfanızda görünmez. Bu bölüm tüm içeriğin fontu ve arka planı gibi tüm sayfayı etkileyen genel özellikleri kapsar.
+
+HTML LOCATORS NEDİR ? :
+HTML Locators, web sayfalarındaki öğeleri (elementleri) tanımlamak için kullanılan bir tekniktir. Selenium, web sayfalarındaki öğelere erişmek ve onlarla etkileşimde bulunmak için HTML Locators'ı kullanır. HTML Locators, öğeleri tanımlamak için birçok farklı seçeneğe sahiptir, bunlar arasında ID, name, class, tagname, linktext ve partial linktext gibi seçenekler yer alır.
+
+SELENİUM AKSİYONLARI :
+sendkeys() = QAs'lerin formlar için herhangi bir test yürütürken içeriği düzenlenebilir bir alana otomatik olarak yazmasına izin veren bir yöntemdir .Bu alanlar, öğe kimliği, adı, sınıf adı vb. konumlandırıcılar kullanılarak tanımlanabilen web öğeleridir.
+click() = Bir öğeye tıklamak için kullanılır..
+clear() = Bir öğenin içeriğini temizlemek için kullanılır. 
+submit = Bir formu göndermek için kullanılır. 
+select_by_visible_text = Bir dropdown  öğesinde belirli bir metne tıklamak için kullanılır.
+Scroll = Sayfayı aşağı veya yukarı kaydırmak için kullanılır.
+Switch to Frame = Bir iframe içine geçmek için kullanılır.
+Switch to Window = Bir pencereye geçmek için kullanılır.
+Back() = Önceki sayfaya gitmek için kullanılır.
+Forward() = Sonraki sayfaya gitmek için kullanılır.
+Refresh() = Sayfayı yenilemek için kullanılır.
